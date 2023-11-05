@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<title>ch6-2-2二欄式版面(fixed-fluid)</title>
+<meta charset="utf-8">
+<style>
+*{
+ font-size: 40px;
+
+}
+#header{
+ height: 100px;
+ background-color: red;
+}
+#wrapper{
+ float:left;
+ width:100%;
+
+}
+#main{
+
+ margin-left: 180px;
+ background-color: green;
+}
+#side{
+ float:left;
+ width:180px;
+ margin-left:-100%;
+ background-color: blue;
+}
+#footer{
+ clear:both;
+ height: 100px;
+ background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+ <div id="header">學號:91018135</div>
+ <div id="wrapper">
+ <div id="main"> <a href="abc.html">詩的賞析</a></div>
+  <div id="footer"> <a href="abcd.html">詩的賞析</a></div>
+ </div>
+</body>
+</html>
